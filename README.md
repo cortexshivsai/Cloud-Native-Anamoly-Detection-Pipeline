@@ -177,7 +177,8 @@ python src/model/detect.py
 | Somnath Satish Khot | 
 
 **Guide:** Mr. R.S. Todkar
-**Department:** Computer Science & Engineering (AIML), School of Engineering & Technology, D. Y. Patil Agriculture & Technical University, Talsande
+
+**Department:** CSE(AIML), School of Engineering & Technology, D. Y. Patil Agriculture & Technical University, Talsande
 
 ## References
 
