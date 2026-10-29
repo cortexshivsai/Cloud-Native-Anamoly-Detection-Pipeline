@@ -2,9 +2,9 @@
 
 A real-time, container-based pipeline that collects logs and metrics from cloud services, streams them through Apache Kafka, and uses machine learning (Isolation Forest) to detect unusual behaviour automatically. Detected anomalies are stored, sent as alerts, and shown on a Grafana dashboard.
 
-> **Status:** Work in progress (about 50% complete). See [Project Status](#project-status).
+> **Status:** Work in progress (about 80% complete). See [Project Status](#project-status).
 
-> Mini project for B.Tech CSE (AIML), D. Y. Patil Agriculture & Technical University, Talsande (2025-26).
+> Mini project for B.Tech CSE (AIML), D. Y. Patil Agriculture & Technical University, Talsande (2026-27).
 
 ---
 
@@ -151,9 +151,9 @@ python src/model/detect.py
 | Isolation Forest model trained and tested | Done |
 | Docker containers for the main components | Done |
 | Kafka data pipeline | Done |
-| Kubernetes deployment | In progress |
-| Grafana dashboard | In progress |
-| Alert integration (email / Slack) | In progress |
+| Kubernetes deployment | Done |
+| Grafana dashboard | Done |
+| Alert integration (Telegram Bot Alert) | Done|
 | Performance testing and tuning | Planned |
 | Documentation | Planned |
 
@@ -168,13 +168,13 @@ python src/model/detect.py
 
 ## Team
 
-| Name | PRN |
-|---|---|
-| Darshan Chidanand Bagale | 2024011041003 |
-| Rahul Virabhadra Teli | 2024011041114 |
-| Satyam Anil Phalke | 2024011041093 |
-| Shivsai Nilesh Jagadale | 2024011041036 |
-| Somnath Satish Khot | 2024011041048 |
+| Name |
+|---|
+| Darshan Chidanand Bagale | 
+| Rahul Virabhadra Teli | 
+| Satyam Anil Phalke | 
+| Shivsai Nilesh Jagadale | 
+| Somnath Satish Khot | 
 
 **Guide:** Mr. R.S. Todkar
 **Department:** Computer Science & Engineering (AIML), School of Engineering & Technology, D. Y. Patil Agriculture & Technical University, Talsande
@@ -185,6 +185,3 @@ python src/model/detect.py
 - Liu, F. T., Ting, K. M., Zhou, Z., "Isolation Forest," IEEE International Conference on Data Mining, 2008.
 - Official documentation: Apache Kafka, Kubernetes, Docker, Prometheus, Grafana, Scikit-learn, TensorFlow
 
-## License
-
-Add a license of your choice (for example, MIT) or remove this section.
